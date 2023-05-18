@@ -1,9 +1,10 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-
 }
-
+#logo_link img{
+    width: 80px;
+}
 nav a{
     text-align: center;
 }
@@ -69,7 +70,7 @@ h4{
 }
 .msg h2{
     background-color: #FFF5EE;
-    color: #black;
+    color: black;
 }
 .msg p{
     background-color: #F3E5AB;

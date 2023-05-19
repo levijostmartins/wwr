@@ -18,6 +18,12 @@ h2 {
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
 .msg {
     padding: 35px;
 }
@@ -28,6 +34,7 @@ h2 {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 .msg p{
     font-size: 8em;

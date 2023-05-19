@@ -1,6 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@500&display=swap');
+
+body {
+    background-color: #fcfbfb;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+.home-title { 
+    font-family:"Kaushan Script";
+    font-size: 2em;
+    margin-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.msg {
+    padding: 35px;
+}
+.msg h2 {
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+.book, .join{ 
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+.msg p{
+    font-size: 8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+#logo_link {
+    padding-top: 5px;
 }
 #logo_link img{
     width: 80px;
@@ -29,7 +68,7 @@ nav a:hover {
     background-color: #FFDEAD;
 }
 .book, .join{
-    background-color: #FCF5E5
+    background-color: #d9c2a3
 }
 .book:hover, .join:hover{
     background-color: #FFF5EE
@@ -40,7 +79,7 @@ nav a:hover {
 .msg{
     background-color: #FFF5EE
 }
-footer{
+footer {
     background-color: #E2DFD2
 }
 nav a{
@@ -73,12 +112,16 @@ h4{
     color: black;
 }
 .msg p{
-    background-color: #F3E5AB;
+    background-color: #6f7364;
     color: black;
 }
 footer{
     background-color: #F3E5AB;
     color: black;
+    padding: 25px 50px;
+}
+.social img {
+    padding-top: 15px;
 }
 footer a{
     background-color: #E2DFD2;
@@ -90,6 +133,7 @@ footer a:hover{
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -98,6 +142,7 @@ nav a{
     text-align: center;
     color: #EDEADE;
     text-decoration: none;
+    padding: 35px;
 }
 .book, .join{
     text-align: center;
@@ -108,6 +153,7 @@ footer a {
     text-align: center;
     color: #F9F6EE;
     text-decoration: none;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
